@@ -47,44 +47,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/tests
+CMAKE_SOURCE_DIR = /home/pi/rpicam-opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/tests
+CMAKE_BINARY_DIR = /home/pi/rpicam-opencv
 
 #=============================================================================
-# Target rules for target CMakeFiles/camcv.dir
+# Target rules for target CMakeFiles/camcv_vid1.dir
 
 # All Build rule for target.
-CMakeFiles/camcv.dir/all:
-	$(MAKE) -f CMakeFiles/camcv.dir/build.make CMakeFiles/camcv.dir/depend
-	$(MAKE) -f CMakeFiles/camcv.dir/build.make CMakeFiles/camcv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/tests/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13
-	@echo "Built target camcv"
-.PHONY : CMakeFiles/camcv.dir/all
+CMakeFiles/camcv_vid1.dir/all:
+	$(MAKE) -f CMakeFiles/camcv_vid1.dir/build.make CMakeFiles/camcv_vid1.dir/depend
+	$(MAKE) -f CMakeFiles/camcv_vid1.dir/build.make CMakeFiles/camcv_vid1.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/rpicam-opencv/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13
+	@echo "Built target camcv_vid1"
+.PHONY : CMakeFiles/camcv_vid1.dir/all
 
 # Include target in all.
-all: CMakeFiles/camcv.dir/all
+all: CMakeFiles/camcv_vid1.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/camcv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/tests/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camcv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/tests/CMakeFiles 0
-.PHONY : CMakeFiles/camcv.dir/rule
+CMakeFiles/camcv_vid1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/rpicam-opencv/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camcv_vid1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/rpicam-opencv/CMakeFiles 0
+.PHONY : CMakeFiles/camcv_vid1.dir/rule
 
 # Convenience name for target.
-camcv: CMakeFiles/camcv.dir/rule
-.PHONY : camcv
+camcv_vid1: CMakeFiles/camcv_vid1.dir/rule
+.PHONY : camcv_vid1
 
 # clean rule for target.
-CMakeFiles/camcv.dir/clean:
-	$(MAKE) -f CMakeFiles/camcv.dir/build.make CMakeFiles/camcv.dir/clean
-.PHONY : CMakeFiles/camcv.dir/clean
+CMakeFiles/camcv_vid1.dir/clean:
+	$(MAKE) -f CMakeFiles/camcv_vid1.dir/build.make CMakeFiles/camcv_vid1.dir/clean
+.PHONY : CMakeFiles/camcv_vid1.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/camcv.dir/clean
+clean: CMakeFiles/camcv_vid1.dir/clean
 .PHONY : clean
 
 #=============================================================================

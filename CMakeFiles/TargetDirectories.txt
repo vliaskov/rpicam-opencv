@@ -1,1 +1,1 @@
-/home/pi/tests/CMakeFiles/camcv.dir
+/home/pi/rpicam-opencv/CMakeFiles/camcv_vid1.dir
